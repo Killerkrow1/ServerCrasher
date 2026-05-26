@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "servercrasher",
+  "version": "${version}",
+  "name": "ServerCrasher",
+  "description": "This will crash your world if you figure it out",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/servercrasher/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "paradigm.killerkrow.servercrasher.client.ServercrasherClient"
+    ],
+    "main": [
+      "paradigm.killerkrow.servercrasher.Servercrasher"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
