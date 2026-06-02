@@ -7,7 +7,6 @@
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/servercrasher/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
